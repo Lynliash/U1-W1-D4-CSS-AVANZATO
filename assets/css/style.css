@@ -68,6 +68,14 @@ h4 {
   padding-top: 1em;
 }
 
+h5 {
+  text-align: center;
+  margin-top: 0.3em;
+  margin-bottom: 1.5em;
+  font-weight: 600;
+  font-size: 1.4em;
+}
+
 .credit {
   color: #aaaaaa;
   font-size: 1.2em;
@@ -158,6 +166,7 @@ p {
 iframe {
   padding: 0.4em;
   border-radius: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .mail {
@@ -170,91 +179,38 @@ iframe {
   padding-left: 1em;
 }
 
-input {
+.textbox::placeholder {
   padding: 1em 2em;
-}
-
-.news-section {
-  margin-top: 2em;
+  font-size: 16px;
   font-family: Poppins;
+  text-align: left;
 }
 
-.newsletter,
-.related-articles,
-.blog-footer {
-  background-color: #f0f0f0;
+.newsletter {
+  background-color: #e2e4e5;
   padding: 1.5em;
-  margin-bottom: 1.5em;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 2em;
 }
 
-.newsletter h4,
-.related-articles h4 {
-  margin-bottom: 1em;
-  font-size: 1.3em;
-  font-weight: 600;
-}
-
-.newsletter form {
-  display: flex;
-  gap: 0.5em;
-  margin-top: 1em;
-}
-
-.newsletter input[type="email"] {
-  flex: 1;
-  padding: 0.8em 1em;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.newsletter button {
-  padding: 0.8em 1.5em;
-  border: none;
-  background-color: #3366cc;
+button {
+  background-color: #3a67c6;
   color: white;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  font-size: 1em;
+  margin-left: 1.4em;
 }
 
-.newsletter button:hover {
-  background-color: #254b8f;
-}
-
-.related-articles .article-card {
-  background-color: #e7e7e7;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-radius: 5px;
-}
-
-.related-articles .article-card a {
-  display: block;
+.links {
+  margin: 2em;
   font-weight: 500;
-  color: #3366cc;
-  margin-bottom: 0.5em;
-  text-decoration: underline;
 }
 
-.related-articles .article-card p {
-  margin: 0.2em 0;
-  font-size: 0.95em;
-  color: #555;
-}
-
-.footer-wrapper {
-  text-align: center;
-  background: linear-gradient(180deg, #005566, #313b37);
-  color: white;
-  font-size: 0.9em;
-  margin-top: 7em;
-  margin-bottom: 3em;
-  height: 15vh;
-}
-
-footer a {
-  color: #ff8ce1;
-  text-decoration: none;
+.article-links {
+  background-color: #e2e4e5;
+  border: 2px solid lightgrey;
 }
