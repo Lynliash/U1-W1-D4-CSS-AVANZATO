@@ -172,7 +172,6 @@ iframe {
 
 input {
   padding: 1em 2em;
-  marg
 }
 
 .news-section {
@@ -180,15 +179,18 @@ input {
   font-family: Poppins;
 }
 
-.newsletter, .related-articles, .blog-footer {
+.newsletter,
+.related-articles,
+.blog-footer {
   background-color: #f0f0f0;
   padding: 1.5em;
   margin-bottom: 1.5em;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.newsletter h4, .related-articles h4 {
+.newsletter h4,
+.related-articles h4 {
   margin-bottom: 1em;
   font-size: 1.3em;
   font-weight: 600;
@@ -244,13 +246,12 @@ input {
 
 .footer-wrapper {
   text-align: center;
-  background: linear-gradient(180deg, #005566, #313B37);
+  background: linear-gradient(180deg, #005566, #313b37);
   color: white;
   font-size: 0.9em;
-    margin-top: 7em;
-    margin-bottom: 3em;
-    height: 15vh;
-
+  margin-top: 7em;
+  margin-bottom: 3em;
+  height: 15vh;
 }
 
 footer a {
