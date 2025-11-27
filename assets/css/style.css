@@ -1,0 +1,119 @@
+body {
+  padding: 20px;
+  background-image: url(/assets/img/sfondo.png);
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.box {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.box-1 {
+  height: 25vh;
+  background: linear-gradient(180deg, rgb(51, 147, 185) 0%, rgb(0, 75, 100) 100%);
+  padding: 2em;
+  text-align: center;
+}
+
+.box-2 {
+  margin-top: 2em;
+  height: 150vh;
+  background: white;
+  padding: 1.5em;
+}
+
+.img-logo {
+  width: 250px;
+  padding-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  display: block;
+  padding-top: 1.2em;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+}
+
+header h2 {
+  color: white;
+  padding-top: 2rem;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+h1 {
+  padding-top: 1em;
+  font-size: 2.2em;
+  font-weight: 600;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 0.2em;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.4em;
+}
+
+.credit {
+  color: #aaaaaa;
+  font-size: 1.2em;
+  padding-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+article p {
+  text-align: left;
+  margin-bottom: 1.5em;
+  margin-block: 0.3em;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+ul,
+ol {
+  list-style-type: disc;
+  padding: 2em;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  padding-top: 1.5em;
+}
+
+.purple {
+  color: purple;
+  font-weight: 500;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+th {
+  background-color: #3366cc;
+  font-size: 1.3em;
+}
+
+td {
+  text-align: center;
+  line-height: 3em;
+  font-weight: 400;
+}
+
+.bcg-color {
+  background-color: #eeeeee;
+  border-top: 1px solid rgba(158, 158, 158, 0.3);
+  border-bottom: 1px solid rgba(158, 158, 158, 0.3);
+}
+
+.bcg-color2 {
+  border-bottom: 2px solid #5769b0;
+}
